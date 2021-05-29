@@ -9,7 +9,7 @@ namespace ASP2184587.Controllers
 {
     public class proveedorController : Controller
     {
-        // GET: proveedor
+       
         public ActionResult Index()
         {
             using (var db = new inventarioEntities())
